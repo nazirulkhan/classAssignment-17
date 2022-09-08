@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,h1,h2,h3,h4,h5,h6,p,a,span{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header section */
+
+.header{
+    background: #000;
+}
+.header-logo img{
+    width: 90px;
+    padding-top: 5px;
+}
+.main-menu{
+    margin-left: 250px;
+}
+.main-menu ul{
+    margin-bottom: 0;
+}
+.main-menu ul li{
+    display: inline-block;
+    list-style: none;
+    position: relative;
+}
+.main-menu ul li a{
+    display: block;
+    color: #fff;
+    padding: 0 20px;
+    font-size: 20px;
+    line-height: 62px;
+}
+.main-menu ul li ul{
+    position: absolute;
+    background-color: #000;
+    width: 195px;
+    top: 100%;
+    left: 0;
+    border-top: 3px solid #ddd;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease ;
+}
+.main-menu ul li ul li{
+    display: block;
+}
+.main-menu ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+.main-menu ul li ul li:hover{
+    background-color: #fff;
+}
+.main-menu ul li ul li a:hover{
+    color: #000;
+}
+
+/* banner section */
+
+.banner{
+    background-image: url(https://i.ibb.co/gZTgt3r/a0c6042d4612d7adf44692fffac7e082.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px;
+    color:#000;
+}
+.banner h1{
+    font-weight: 900;
+}
+.banner p{
+    font-weight: 900;
+}
+.button1{
+    display: inline-block;
+}
+.button1 a{
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: #000;
+    display: inline-block;
+    border-style: none;
+    color: #fff;
+    transition: .4s;
+}
+.button1 a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.button2{
+    display: inline-block;
+}
+.button2 a{
+    padding: 15px 23px;
+    border-radius: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: #fff;
+    display: inline-block;
+    border-style: none;
+    color: #000;
+    transition: .4s;
+}
+.button2 a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+/* about section */
+
+.about{
+    background-color: #849d6d;
+    color: #fff;
+    padding: 0 250px;
+}
+.about h1{
+    border-bottom: 3px solid #fff;
+    display: inline-block;
+    font-weight: 600; 
+}
+.about img{
+    max-width: 100%;
+}
+.about-contant{
+    padding: 40px;
+}
+
+/* service section */
+
+.service{
+    background-color: #606a64;
+    color: #fff;
+    padding: 40px 100px;
+}
+.service h1{
+    border-bottom: 3px solid #fff;
+    display: inline-block;
+    font-weight: 600;
+}
+.service .para{
+    padding: 10px 230px;
+}
+.box {
+    border-radius: 10px;
+    background-color: #fff;
+    color: #000;
+    padding: 15px;
+    margin: 15px;
+}
+.box img{
+    max-width: 100%;
+}
+
+/* gallery section */
+
+.gallery{
+    background-color: #87a471;
+    color: #fff;
+    padding: 50px 300px;
+}
+.gallery h3{
+    padding: 10px;
+}
+.gallery p{
+    padding: 10px;
+}
+.gallery img{
+    width: 100%;
+}
+.gal1{
+    border: 1px solid #fff;
+    padding: 0;
+}
+.gal1 h6{
+    padding-top: 5px;
+    color: #607a7f;
+}
+
+ /* team section */
+.team{
+    background-color: #5b9776;
+    color: #fff;
+}
+.team h1{
+    border-bottom: 3px solid #fff;
+    display: inline-block;
+}
+.team i{
+    color: #fff;
+    font-size: 30px;
+    padding: 10px;
+}
+.team i:hover{
+    color: #4d6a86;
+}
+
+ /* contact section */
+
+.contact{
+    background-color: #606a64;
+    color: #fff;
+    padding: 100px 370px;
+}
+.button3 a{
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: #00bc9c;
+    display: inline-block;
+    border-style: none;
+    color: #fff;
+    transition: .4s;
+}
+.button3 a:hover{
+    background-color:#4d6a86;
+    color: #fff;
+}
+
+/* footer section */
+
+.footer{
+    background-color: #000;
+    color: #fff;
+}
